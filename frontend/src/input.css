@@ -1,0 +1,5 @@
+@import "tailwindcss";
+
+body{
+    @apply max-w-[2100px] mx-auto;
+}
