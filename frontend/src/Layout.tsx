@@ -1,7 +1,8 @@
 import React from 'react'
-import Header from './components/shared/header';
 import { useLocation } from 'react-router-dom';
 import AdminHeader from './components/shared/AdminHeader';
+import Header from './components/shared/PortalHeader';
+
 
 const Layout = ({ children }) => {
   const location = useLocation();
