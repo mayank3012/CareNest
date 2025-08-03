@@ -4,7 +4,7 @@ import Layout from './Layout';
 import ErrorBoundary from './components/ErrorBoundary';
 
 const MemoizedLayout = memo(Layout);
-const Home = lazy(() => import('./pages/home'));
+const Home = lazy(() => import('./pages/Home'));
 const AdminLogin = lazy(() => import('./pages/Login'));
 
 function App() {
